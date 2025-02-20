@@ -1,6 +1,6 @@
 # image-pre-processing
 
-#exp 1 image resizing
+#exp 1a image resizing
 Scaling operations increase or reduce the size of an image. 
 
 The cv2.resize() function is used to resize an python image in OpenCV. It takes the following arguments:
@@ -26,7 +26,7 @@ The output image size.
 The rotation angle can be positive or negative. A positive angle rotates the image clockwise, while a negative angle rotates the image counterclockwise.
 The scale factor can be used to scale the image up or down. A scale factor of 1 will keep the image the same size, while a scale factor of 2 will double the size of the python image.
 
-#exp3 image translation
+#exp1c image translation
 Image shearing is a geometric transformation that skews an image along one or both axes i.e x or y axis.
 
 To shear an image using OpenCV, we need to create a transformation matrix. This matrix is a 2×3 matrix that specifies the amount of shearing in each direction.
@@ -36,7 +36,7 @@ The transformation matrix.
 The output image size.
 The shearing parameters are specified in the transformation matrix as the shearX shearY elements. The shearX element specifies the amount of shearing in the x-axis, while the shearY element specifies the amount of shearing in the y-axis.
 
-#exp4 image normalization
+#exp1d image normalization
 Image normalization is a process of scaling the pixel values in an image to a specific range.This is often done to improve the performance of image processing algorithms, as many algorithms work better when the pixel values are within a certain range.
 
 In OpenCV, the cv2.normalize() function is used to normalize an image. This function takes the following arguments:
